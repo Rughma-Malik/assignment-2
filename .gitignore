@@ -1,0 +1,32 @@
+# Terraform directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Variable files
+*.tfvars
+!example.tfvars
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Crash logs
+crash.log
+
+# SSH keys
+*.pem
+*.key
+*.pub
+
+# Terraform CLI config
+.terraformrc
+terraform.rc
+
+# OS / Editor files
+.DS_Store
+.vscode/
